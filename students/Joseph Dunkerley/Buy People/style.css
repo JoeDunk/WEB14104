@@ -1,0 +1,76 @@
+ul
+{
+	margin:0 ;
+	padding:0 ;
+	list-style: none;
+	text-align: center;
+}
+
+li
+{
+	padding: 1em;
+
+	background: #F3E2A9;
+	border-bottom: rgba (166, 203, 219, 0.74) 2px dashed;
+}
+
+img
+
+{
+	max-width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%
+}
+
+.classy
+
+{
+	background-color: rgb(47, 192, 255);
+
+	color: white;
+
+	text-decoration: none;
+
+	padding: .5em;
+
+	border-radius: .5em;
+
+	text-align: center;
+	display: block;
+	font-size: 2em;
+}
+
+.classy
+{
+	transition: all 1s linear;
+}
+.classy:hover
+{
+	background: purple;
+}
+
+img:hover
+{
+	-webkit-animation: pulse 2s infinite;
+	animation: pulse 2s infinite;
+}
+	/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 1.15, 1.15);
+  }
+
+  100% {
+    transform: scale4d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
